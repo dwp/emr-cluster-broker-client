@@ -102,3 +102,19 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IDEA
+.idea
+*.iml
+
+# Terraform
+ci/terraform.tf
+*.tfvars
+rad/
+out/
+.idea/*
+**/.terraform/
+**/*.tfvars
+**/*.tfstate
+**/*.tfstate*
+**/terraform.tf
